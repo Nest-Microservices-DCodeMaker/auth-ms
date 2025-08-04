@@ -13,12 +13,12 @@ export class AuthController {
 
   @MessagePattern('auth.login.user')
   loginUser() {
-    return 'register user';
+    return 'login user';
   }
 
   @MessagePattern('auth.verify.user')
   verifyToken() {
-    return 'register user';
+    return 'verify user';
   }
 
 }
